@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <a href="#" data-toggle="quick-sidebar" data-target="#filter-container" class="btn btn-light"><i class="fa fa-filter"></i>Filter</a>
+    <div id="filter-container" class="quick-sidebar">
+        <div class="container">
+            <div class="header">
+                <div class="title">Filters</div>
+                <a href="#" data-toggle="close-quick-sidebar"><i class="fal fa-times"></i></a>
+            </div>
+            <form autocomplete="off">
+                <div class="body">
+                    <div class="form-group">
+                        <label for="">Branch</label>
+                        <select class="form-control" name="branch_id"><option selected="selected" value="">-- Choose Branch --</option><option value="1">Toul Kork</option><option value="2">Steng MeanChey</option><option value="3">Toek Thlar</option><option value="4">Beng Kengkong</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="search" class="form-control" id="name" name="name" placeholder="Name" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Phone</label>
+                        <input type="search" class="form-control" id="phone" name="phone" placeholder="Phone" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Status</label>
+                        <select class="form-control" name="active"><option selected="selected" value="">-- Choose Status --</option><option value="1">Active</option><option value="0">Inactive</option></select>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <a href="#" data-toggle="close-quick-sidebar" class="btn btn-light">Close</a>
+                        <button class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
